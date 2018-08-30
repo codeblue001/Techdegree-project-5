@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.secondary-wrapper {
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+input, button {
+  border: 1px solid aqua;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: aqua;
+  transition: 1s;
+}
+
+img {
+  transition: 1s;
+}
+
+img:hover {
+  transform: rotate(25deg);
+}
+
+.secondary-wrapper a {
+  margin: 15px;
+}
